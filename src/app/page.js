@@ -9,15 +9,14 @@ function Home() {
     }}>
       <div className="w-[93%] h-full relative">
         <Navbar />
-        <Image
+        <img
           src="/assets/images/hero-image.png"
-          className='absolute bottom-0 left-1/2 transform -translate-x-1/2 '
-          width={500}
-          height={500}
+          className='absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[38vw]'
+
           alt="Picture of the author"
-          priority={true}
-        />
-        <h1 className='uppercase text-[8vw] font-bold text-white w-full text-center pt-[.6vw]'>Thumbnail Designer</h1>
+         >
+        </img>
+        <h1 className='uppercase text-[8vw] font-bold tracking-tight text-white w-full text-center pt-[.6vw]'>Thumbnail Designer</h1>
         <div className='w-full flex justify-between h-fit flex-row'>
           <div className='w-1/2 flex justify-center flex-col'>
             <p className='text-[.5] w-[60%] font-normal leading-4'>I design more than just thumbnails, I craft compelling narratives. Every project is a reflection of bold ideas, designed to captivate audiences and drive engagement.</p>
