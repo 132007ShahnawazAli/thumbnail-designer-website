@@ -11,6 +11,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'neue-montreal': ['"Neue Montreal"', 'sans-serif'],
+      },
+      fontWeight: {
+        light: '300',
+        regular: '400',
+        medium: '500',
+        bold: '700',
+      },
     },
   },
   plugins: [],
